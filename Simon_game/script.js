@@ -74,7 +74,7 @@ function checkAns(idx){
 function btnPress(){
     let btn = this;
     userflash(btn);
-    userColor = btn.getAttribute("id");
+    let userColor = btn.getAttribute("id");
     user_seq.push(userColor);
 
     checkAns(user_seq.length-1)
@@ -88,7 +88,7 @@ function reset(){
     level =0;  
 }
 
-let allbtns = document.querySelectorAll(".boxes");
+let allbtns = document.querySelectorAll(".btn");
 for(btn of allbtns){
     btn.addEventListener('click',btnPress);
 }

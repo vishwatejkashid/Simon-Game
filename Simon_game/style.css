@@ -6,15 +6,16 @@ body{
     background-color:#343a40;
 }
 .main{
-    margin-top: 2.5rem ;
+    margin-top: 1rem ;
+    /* height: 35rem; */
     width: 40rem;
     background-color:#adb5bd;
     border-radius: 10%;
 }
 
-.boxes{
-    height: 150px;
-    width: 150px;
+.btn{
+    height: 145px;
+    width: 145px;
     border: 2px solid black;
     border-radius: 20%;
     margin: 1.5rem;
@@ -47,4 +48,4 @@ body{
 
 .userflash{
     background-color: green;
-}
+} 
